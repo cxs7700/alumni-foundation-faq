@@ -11,4 +11,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 			icon.textContent = answer.classList.contains('hidden') ? '+' : '−';
 		});
 	});
+
+	// Open the first FAQ item
+	faqItems[0].childNodes[1].click();
 });
