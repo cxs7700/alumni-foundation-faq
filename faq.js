@@ -1,5 +1,8 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
 	const faqItems = document.querySelectorAll('.faq-item');
+	fetch('https://jsonplaceholder.typicode.com/todos/1')
+		.then((response) => response.json())
+		.then((json) => console.log('placeholder json:', json));
 
 	faqItems.forEach((item) => {
 		const toggle = item.querySelector('.faq-toggle');
@@ -11,4 +14,5 @@ document.addEventListener('DOMContentLoaded', () => {
 			icon.textContent = answer.classList.contains('hidden') ? '+' : '−';
 		});
 	});
+	document.querySelector('#parent').append('TEST!!!!!!!!!!!!!!!!');
 });

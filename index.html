@@ -17,72 +17,161 @@
             transform: rotate(45deg);
         }
     </style>
-
 </head>
 
 <body class="bg-gray-100 p-10 lg:container mx-auto xl:px-40">
     <h1
-        class="mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white">
+        class="mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white lg:text-center">
         Frequently asked questions
     </h1>
-    <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+    <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 lg:text-center">
         Can't find what you're looking for? Shoot a message to
         <a
             class="underline"
             href="https://emojiisland.com/cdn/shop/products/Emoji_Icon_-_Clown_emoji_grande.png?v=1571606089"
             target="_blank"
-        >Pheng Lee!</a>
+        >Pheng Lee</a>!
     </p>
-    <p class="mb-6 text-lg font-bold underline text-black-500 lg:text-xl dark:text-gray-400">
+
+    <!-- <div class="mb-6 text-lg font-bold underline text-black-500 lg:text-xl dark:text-gray-400">
         Donate Now!
-    </p>
+    </div> -->
 
-
-    <div class="space-y-4">
+    <div
+        id="parent"
+        class="space-y-4"
+    >
 
         <!-- RIT Alumni Foundation Questions -->
+        <div class="text-lg font-bold text-black-500 lg:text-xl dark:text-gray-400">
+            RIT Alumni Foundation:
+        </div>
         <div class="faq-item border p-4 rounded-md">
             <button class="text-left faq-toggle text-lg font-medium flex justify-between w-full hover:opacity-80">
                 What is the RIT Alumni Foundation?
                 <span class="faq-icon">+</span>
             </button>
             <div class="faq-answer hidden mt-2 text-gray-700">
-                The RIT Alumni Foundation is for alumni, run by alumni.
+                <p class="mb-5">
+                    The RIT Alumni Foundation is an entity created by alumni of Lambda Phi Epsilon, Beta Epsilon chapter
+                    of RIT. First and foremost, it was created for alumni and is run by alumni. We formed a partnership
+                    with the Lambda Phi Epsilon Foundation so that tax-exempt charitable donations can be made to an
+                    endowment fund set up for us.
+                </p>
+                <p>
+                    In order to keep the RIT Alumni Foundation running, we pay an annual $500 maintenance fee, so we
+                    must make the best use of it.
+                </p>
             </div>
         </div>
 
+        <div class="faq-item border p-4 rounded-md">
+            <button class="text-left faq-toggle text-lg font-medium flex justify-between w-full hover:opacity-80">
+                What is the purpose of the RIT Alumni Foundation?
+                <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer hidden mt-2 text-gray-700">
+                <p class="mb-5">
+                    The purpose of the RIT Alumni Foundation is to bestow merit and need-based scholarships, along with
+                    other financial and social incentives.
+                </p>
+                <p class="mb-5">
+                    We intend to award an <b>annual $500 scholarship to the "RIT Lambda of the Year".</b>
+                    The scholarship amount is subject to change in the future. Funds can also be used for social events,
+                    such as brotherhood retreats and anniversaries.
+                </p>
+                <p>
+                    This is one of the best ways to pay less in taxes AND save up funds for the future. This money will
+                    eventually go back to you and our chapter. With a company match, your donation is automatically
+                    doubled. Wouldn't you like to secure your spot at an event with a premium venue? 🙂
+                </p>
+            </div>
+        </div>
         <div class="faq-item border p-4 rounded-md">
             <button class="text-left faq-toggle text-lg font-medium flex justify-between w-full hover:opacity-80">
                 What is the Lambda Phi Epsilon Foundation?
                 <span class="faq-icon">+</span>
             </button>
             <div class="faq-answer hidden mt-2 text-gray-700">
-                The Lambda Phi Epsilon Foundation is a 501(c)(3) non-profit organization. We partnered with the Lambda
-                Phi Epsilon Foundation in order to...
+                The Lambda Phi Epsilon Foundation is a 501(c)(3) non-profit organization (EIN: 81-0748181). The purpose
+                of the Lambda Phi Epsilon Foundation is to engage in charitable activities and provide educational
+                support to members of Lambda Phi Epsilon International Fraternity, Incorporated. Click <a
+                    class="underline"
+                    href="https://lambdaphiepsilon.com/donate/"
+                    target="_blank"
+                >here</a> to learn more.
+            </div>
+        </div>
+
+        <div>
+            <hr class="w-4 h-4 mx-auto my-8 bg-gray-200 border-0 rounded md:my-12 dark:bg-gray-700">
+        </div>
+
+        <!-- The Board -->
+        <div class="text-lg font-bold text-black-500 lg:text-xl dark:text-gray-400">
+            The Board:
+        </div>
+        <div class="faq-item border p-4 rounded-md">
+            <button class="text-left faq-toggle text-lg font-medium flex justify-between w-full hover:opacity-80">
+                What is the purpose of the board of alumni?
+                <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer hidden mt-2 text-gray-700">
+                <p class="mb-5">
+                    The purpose of the board is to vote upon where funds go to and how much. The board was structured to
+                    have at least 1 alumnus from each class to maintain a diverse opinion. It is necessary to have input
+                    from brothers of all ages, especially as the chapter gets older.
+                </p>
+                <p class="mb-5">
+                    Currently, the members sitting on the board are Christopher Savan, Hess Lee, Mitchel Zaarib, Jacky
+                    Ren, Wilson Huang, and Saad Khan. Members of the board are subject to change in the future. We are
+                    still in the process of forming guidelines and protocols that dictate how the board runs.
+                </p>
+                <p>
+                    If you are interested in joining the board, please let Christopher Savan know.
+                </p>
             </div>
         </div>
 
         <div class="faq-item border p-4 rounded-md">
             <button class="text-left faq-toggle text-lg font-medium flex justify-between w-full hover:opacity-80">
-                What is the purpose of the board of the alumni foundation?
+                What is the board currently working on?
                 <span class="faq-icon">+</span>
             </button>
             <div class="faq-answer hidden mt-2 text-gray-700">
-                The board consists of Christopher Savan, Hess Lee, Mitchel Zaarib, Jacky Ren, Wilson Huang, and Saad
-                Khan. The board was structured to have at least 1 alumnus from each class to maintain a diverse opinion
-                in decision-making and voting. We are still at the mercy of the people who are running the Lambda Phi
-                Epsilon Foundation.
+                We are currently working on getting a newsletter up and running by next month. The newsletter will
+                showcase our current progress in reaching our yearly goal for donations, as well as the top donor for
+                the year 😮
             </div>
         </div>
 
+        <div>
+            <hr class="w-4 h-4 mx-auto my-8 bg-gray-200 border-0 rounded md:my-12 dark:bg-gray-700">
+        </div>
+
         <!-- Donation Questions -->
+        <div class="text-lg font-bold text-black-500 lg:text-xl dark:text-gray-400">
+            Donations:
+        </div>
         <div class="faq-item border p-4 rounded-md">
             <button class="text-left faq-toggle text-lg font-medium flex justify-between w-full hover:opacity-80">
                 Why are donations only available through PayPal?
                 <span class="faq-icon">+</span>
             </button>
             <div class="faq-answer hidden mt-2 text-gray-700">
-                Click on a question to see the answer. Click again to hide the answer.
+                <p class="mb-5">
+                    There are other ways to donate. However, PayPal is the preferred payments system because it's
+                    currently set up in a way where after every donation, it triggers an event that runs automation for
+                    bookkeeping, emails, Slack notifications, storing information in a database, and sending tax
+                    receipts.
+                </p>
+                <p>
+                    If you really have no other choice, you may Venmo <a
+                        class="underline"
+                        href="https://account.venmo.com/u/lfefoundation"
+                        target="_blank"
+                    >@lfefoundation</a>
+                </p>
             </div>
         </div>
 
@@ -92,7 +181,7 @@
                 <span class="faq-icon">+</span>
             </button>
             <div class="faq-answer hidden mt-2 text-gray-700">
-                Click on a question to see the answer. Click again to hide the answer.
+                The funds are stored in an endowment fund account through Fidelity.
             </div>
         </div>
 
@@ -102,30 +191,104 @@
                 <span class="faq-icon">+</span>
             </button>
             <div class="faq-answer hidden mt-2 text-gray-700">
-                Click on a question to see the answer. Click again to hide the answer.
+                The funds will be used to pay the annual maintenance fee, fund the annual scholarship, and fund
+                brotherhood events.
             </div>
         </div>
 
+        <div>
+            <hr class="w-4 h-4 mx-auto my-8 bg-gray-200 border-0 rounded md:my-12 dark:bg-gray-700">
+        </div>
 
         <!-- Tax Questions -->
+        <div class="text-lg font-bold text-black-500 lg:text-xl dark:text-gray-400">
+            Tax Implications:
+        </div>
         <div class="faq-item border p-4 rounded-md">
             <button class="text-left faq-toggle text-lg font-medium flex justify-between w-full hover:opacity-80">
-                Tax Questions
+                What are "tax-exempt charitable donations"?
                 <span class="faq-icon">+</span>
             </button>
             <div class="faq-answer hidden mt-2 text-gray-700">
-                Click on a question to see the answer. Click again to hide the answer.
+                <p>
+                    A tax deduction is an amount that you can deduct from your taxable income to lower the amount of
+                    taxes that you owe. This applies to all donations to the RIT Alumni Foundation.
+                </p>
+                <p>
+                    Read more about deductibility code and exemption type for the Lambda Phi Epsilon Foundation on <a
+                        href="https://apps.irs.gov/app/eos/details/"
+                        target="_blank"
+                    >irs.gov</a>.
+                </p>
             </div>
         </div>
 
-        <!-- Transparency, events, democratic Questions -->
         <div class="faq-item border p-4 rounded-md">
             <button class="text-left faq-toggle text-lg font-medium flex justify-between w-full hover:opacity-80">
-                Transparency, events, democratic Questions
+                How do I get my company to match my donation?
                 <span class="faq-icon">+</span>
             </button>
             <div class="faq-answer hidden mt-2 text-gray-700">
-                Click on a question to see the answer. Click again to hide the answer.
+                <p>
+                    Please consult with your company's HR or benefits coordinator. They will be able to walk you through
+                    making charitable donations with a company match.
+                </p>
+                <p>
+                    For example, for GoDaddy, I can make charitable donations through a third-party portal. Another way
+                    I can do it is to first make a donation through PayPal and wait until I get the tax receipt from the
+                    Lambda Phi Epsilon Foundation. Once I have the tax receipt, I can send a request to GoDaddy stating
+                    that I made a donation to a 501(c)(3) organization and attach the tax receipt. GoDaddy will match up
+                    to $1500 every fiscal year, but that does not mean I will donate $1500.
+                </p>
+                <p>
+                    Check if your employer sponsors matching gift programs <a
+                        class="underline"
+                        href="https://ww2.matchinggifts.com/search/rit"
+                        target="_blank"
+                    >here</a>.
+                </p>
+            </div>
+        </div>
+
+        <div class="faq-item border p-4 rounded-md">
+            <button class="text-left faq-toggle text-lg font-medium flex justify-between w-full hover:opacity-80">
+                Where can I receive my tax receipt?
+                <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer hidden mt-2 text-gray-700">
+                The Lambda Phi Epsilon Foundation will forward tax receipts to the email that you use for your PayPal or
+                Venmo account. Make sure to keep the tax receipts. You may need to provide this to your company to get
+                the match. It may also come in handy when filing your taxes.
+            </div>
+        </div>
+
+        <div>
+            <hr class="w-4 h-4 mx-auto my-8 bg-gray-200 border-0 rounded md:my-12 dark:bg-gray-700">
+        </div>
+
+        <!-- Transparency Questions -->
+        <div class="text-lg font-bold text-black-500 lg:text-xl dark:text-gray-400">
+            Transparency:
+        </div>
+        <div class="faq-item border p-4 rounded-md">
+            <button class="text-left faq-toggle text-lg font-medium flex justify-between w-full hover:opacity-80">
+                How much transparency is there?
+                <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer hidden mt-2 text-gray-700">
+                We will be sure to let you know how much in donations we received, where the money is going, and the top
+                donors within a given period.
+            </div>
+        </div>
+
+        <div class="faq-item border p-4 rounded-md">
+            <button class="text-left faq-toggle text-lg font-medium flex justify-between w-full hover:opacity-80">
+                Who has a say in where funds go?
+                <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer hidden mt-2 text-gray-700">
+                Everyone has a say in what we do as a chapter. We intend on sending out polls about on what you think
+                the next event should be, assuming we have enough funds for it.
             </div>
         </div>
 
